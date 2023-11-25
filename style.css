@@ -1,0 +1,62 @@
+/* This should give you way more control over the elements, I still kept your original bootstrapper but fixed the containers to work with the grid */
+
+/* Styling for forgot password link */
+.forgot-password-link {
+    color: #007bff;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    margin-bottom: 15px; /* Spacing below the link */
+}
+
+/* General padding for card bodies */
+.parkAir-padding {
+    padding: 25px; /* Adjust padding as needed */
+}
+
+/* Custom styling for labels */
+.parkAir-label {
+    font-weight: bold; /* Makes text bold */
+    color: #333; /* Label text color */
+    margin-bottom: 5px; /* Space below label */
+}
+
+/* Custom styling for input fields */
+.parkAir-input {
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ccc; /* Border color */
+    padding: 8px 12px; /* Padding inside the input */
+}
+
+/* Custom button styling */
+.parkAir-button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 15px; /* Padding inside the button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Custom styling for text alignment */
+.parkAir-text-left {
+    text-align: left; /* Aligns text to the left */
+}
+
+.parkAir-text-right {
+    text-align: right; /* Aligns text to the right */
+}
+
+.parkAir-text-center {
+    text-align: center; /* Aligns text to the center */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .parkAir-padding {
+        padding: 10px; /* Smaller padding on smaller screens */
+    }
+    .parkAir-button {
+        width: 100%; /* Full-width buttons on smaller screens */
+    }
+}
+
